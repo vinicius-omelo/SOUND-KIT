@@ -47,4 +47,11 @@ main {
     border: 3px solid #ffffff;
     user-select: none;
     cursor: pointer;
+    transition: transform .2s;
+}
+
+.active {
+    transform: scale(1.1);
+    border-bottom: #a6caf1;
+    box-shadow: 0 0 50px #a6caf1;
 }
